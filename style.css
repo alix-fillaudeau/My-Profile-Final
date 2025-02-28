@@ -1,0 +1,96 @@
+body{
+	background: rgb(255, 242, 242);
+	color: rgb(45,51,107);
+	font-family: "Tinos";
+	font-size: 17px;
+}
+h1,h2,h3,h4,h5{
+	font-family: "Helvetica", sans-serif;
+}
+	h1{
+	color: blueviolet;
+	font-size: 32px;
+	}
+	h2{
+	color: blueviolet;
+	font-size: 32px;
+	}
+	h3{
+	color: blueviolet;
+	font-size: 32px;
+	}
+	h3{
+	color: blueviolet;
+	font-size: 32px;	
+	}
+	h4{
+	color: blueviolet;
+	font-size: 32px;
+	}
+	h5{
+	color: blueviolet;
+	font-size: 32px;
+	}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#photo_de_profile {
+  display: block;              
+  width: 194px;               
+  height: 250px;              
+  border: 5px solid black;     
+  border-radius: 10px;       
+  margin: 20px auto;                     
+	}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+	.card-pink {
+  	background: rgb(255, 242, 242);
+  	padding: 30px;
+  	border: 1px solid lightgrey;
+  	margin: 40px auto;
+  	border-radius: 10px;
+  	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  	width: 80%;  
+  	overflow: auto; 
+  	position: relative; 
+  	z-index: 10; 
+}
+
+ #Ieseg {
+  display: inline-block;  /* Pour que l'élément ait la taille du texte */
+  background: blueviolet;
+  color: black;  /* Le texte sera en noir */
+  border: 1px solid blueviolet;
+  border-radius: 5px;  /* Coins arrondis */
+  padding: 5px 15px;  /* Ajuste le padding pour un petit bouton */
+  font-size: 16px;  /* Taille de texte appropriée */
+  text-align: center;  /* Centre le texte dans le bouton */
+  cursor: pointer;  /* Change le curseur pour indiquer qu'il s'agit d'un bouton cliquable */
+  transition: background-color 0.3s;  /* Transition pour un effet au survol */
+}
+
+	#Ieseg:hover {
+  background: darkviolet;  /* Change la couleur au survol */
+	}
+ 
+ @media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+	@media (max-width: 720px) {
+  	.container {
+    	width: 500px;
+  	}
+	}
+		@media (max-width: 540px) {
+  		.container {
+    		width: 300px;
+  		}
+		} 			
